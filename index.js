@@ -8,7 +8,7 @@ const app = express();
 app.get("/", (req, res) => {
   res.send("網站首頁");
 });
-
+ 
 app.get("/singer/:id.html", (req, res) => {
   const {id} = req.params;
 

@@ -1,14 +1,14 @@
 {
-  "name": "express03",
+  "name": "my-mini-site-test",
   "version": "1.0.0",
-  "description": "1. 資料來源是 singers.json\r 2. 下載後安裝\r ```bash\r npm i\r ```\r 3. 測試檔案請安裝全域的 nodemon，並且跑以下程式\r ```bash\r npm run test\r ```\r 4. 執行的話請輸入\r ```bash\r npm start\r ```\r 5. 加入 status code",
-  "main": "index.mjs",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "nodemon index.mjs",
-    "start": "node index.mjs"
+    "test": "nodemon index.js",
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "YiLing Kang",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.3"
